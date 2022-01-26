@@ -60,7 +60,6 @@ pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
 pyrsistent @ file:///C:/ci/pyrsistent_1636093257833/work
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 pytz==2021.3
-pywin32==302
 pywinpty==0.5.7
 pyzmq @ file:///C:/ci/pyzmq_1638435182681/work
 qtconsole @ file:///tmp/build/80754af9/qtconsole_1632739723211/work
