@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 from flask import (url_for, current_app as app)
 
-#today = date.today().year  
+today = date.today().year  
 
 
 app=Flask(__name__)
@@ -26,7 +26,7 @@ def favicon():
 def predict():
     if request.method == 'POST':    
         year= int(request.form['Year'])
-        year= 2020 - year
+        year= today - year
         present_price= float(request.form["Showroom_price"])
         kms= int(request.form['Kilometers'])
         owner= int(request.form['owners'])
