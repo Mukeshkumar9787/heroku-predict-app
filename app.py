@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 25 14:58:52 2022
-
-@author: Admin
-"""
 from flask import Flask,render_template,request
 import jsonify
 import requests
@@ -63,4 +57,4 @@ def predict():
     
     
 if (__name__ == "__main__"):
-    app.run(debug=True)
+    app.run()
